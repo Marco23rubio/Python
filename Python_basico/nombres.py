@@ -1,0 +1,5 @@
+nombre = input("Cual es tu nombre?")
+nombre = nombre.capitalize()
+nombre = nombre.strip()
+nombre = nombre.replace("o","a")
+print(nombre)
